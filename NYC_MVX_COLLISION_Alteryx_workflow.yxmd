@@ -1,0 +1,1270 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="28" y="689" width="780" height="225" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>DAMG7370NYC_MOTOR.[dbo].stg_nyc_mv_collision_Vehicles</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="53" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>True</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>True</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>True</QuoteRecordBreak>
+                <CodePage>65001</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Motor_Vehicle_Collisions_-_Vehicles.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="COLLISION_ID" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CRASH_DATE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CRASH_TIME" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_ID" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="STATE_REGISTRATION" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_TYPE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_MAKE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_MODEL" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_YEAR" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="TRAVEL_DIRECTION" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_OCCUPANTS" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_SEX" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_LICENSE_STATUS" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_LICENSE_JURISDICTION" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PRE_CRASH" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="POINT_OF_IMPACT" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_1" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_2" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_3" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE_TYPE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+            <Position x="210" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <RenameMode>Formula</RenameMode>
+              <Fields orderChanged="False">
+                <Field name="UNIQUE_ID" />
+                <Field name="COLLISION_ID" />
+                <Field name="CRASH_DATE" />
+                <Field name="CRASH_TIME" />
+                <Field name="VEHICLE_ID" />
+                <Field name="STATE_REGISTRATION" />
+                <Field name="VEHICLE_TYPE" />
+                <Field name="VEHICLE_MAKE" />
+                <Field name="VEHICLE_MODEL" />
+                <Field name="VEHICLE_YEAR" />
+                <Field name="TRAVEL_DIRECTION" />
+                <Field name="VEHICLE_OCCUPANTS" />
+                <Field name="DRIVER_SEX" />
+                <Field name="DRIVER_LICENSE_STATUS" />
+                <Field name="DRIVER_LICENSE_JURISDICTION" />
+                <Field name="PRE_CRASH" />
+                <Field name="POINT_OF_IMPACT" />
+                <Field name="VEHICLE_DAMAGE" />
+                <Field name="VEHICLE_DAMAGE_1" />
+                <Field name="VEHICLE_DAMAGE_2" />
+                <Field name="VEHICLE_DAMAGE_3" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE_TYPE" />
+                <Field name="CONTRIBUTING_FACTOR_1" />
+                <Field name="CONTRIBUTING_FACTOR_2" />
+                <Field name="*Unknown" />
+              </Fields>
+              <Expression>regex_replace([_CurrentField_]," ","_")</Expression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="COLLISION_ID" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CRASH_DATE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CRASH_TIME" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_ID" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="STATE_REGISTRATION" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_TYPE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_MAKE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_MODEL" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_YEAR" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="TRAVEL_DIRECTION" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_OCCUPANTS" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_SEX" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_LICENSE_STATUS" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_LICENSE_JURISDICTION" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PRE_CRASH" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="POINT_OF_IMPACT" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_1" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_2" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_3" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE_TYPE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="318" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="UNIQUE_ID" selected="True" />
+                <Field field="COLLISION_ID" selected="True" />
+                <Field field="CRASH_DATE" selected="True" />
+                <Field field="CRASH_TIME" selected="True" />
+                <Field field="VEHICLE_ID" selected="True" />
+                <Field field="STATE_REGISTRATION" selected="True" />
+                <Field field="VEHICLE_TYPE" selected="True" />
+                <Field field="VEHICLE_MAKE" selected="True" />
+                <Field field="VEHICLE_MODEL" selected="True" />
+                <Field field="VEHICLE_YEAR" selected="True" />
+                <Field field="TRAVEL_DIRECTION" selected="True" />
+                <Field field="VEHICLE_OCCUPANTS" selected="True" />
+                <Field field="DRIVER_SEX" selected="True" />
+                <Field field="DRIVER_LICENSE_STATUS" selected="True" />
+                <Field field="DRIVER_LICENSE_JURISDICTION" selected="True" />
+                <Field field="PRE_CRASH" selected="True" />
+                <Field field="POINT_OF_IMPACT" selected="True" />
+                <Field field="VEHICLE_DAMAGE" selected="True" />
+                <Field field="VEHICLE_DAMAGE_1" selected="True" />
+                <Field field="VEHICLE_DAMAGE_2" selected="True" />
+                <Field field="VEHICLE_DAMAGE_3" selected="True" />
+                <Field field="PUBLIC_PROPERTY_DAMAGE" selected="True" />
+                <Field field="PUBLIC_PROPERTY_DAMAGE_TYPE" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_1" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_2" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="Int32" />
+                <Field name="COLLISION_ID" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="Int32" />
+                <Field name="CRASH_DATE" size="10" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="String" />
+                <Field name="CRASH_TIME" size="5" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="String" />
+                <Field name="VEHICLE_ID" size="36" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="STATE_REGISTRATION" size="2" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="String" />
+                <Field name="VEHICLE_TYPE" size="38" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="VEHICLE_MAKE" size="47" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="VEHICLE_MODEL" size="25" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="VEHICLE_YEAR" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="Int16" />
+                <Field name="TRAVEL_DIRECTION" size="9" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="VEHICLE_OCCUPANTS" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="Int32" />
+                <Field name="DRIVER_SEX" size="1" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="String" />
+                <Field name="DRIVER_LICENSE_STATUS" size="10" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="DRIVER_LICENSE_JURISDICTION" size="8" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="PRE_CRASH" size="26" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="POINT_OF_IMPACT" size="25" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="VEHICLE_DAMAGE" size="25" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="VEHICLE_DAMAGE_1" size="25" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="VEHICLE_DAMAGE_2" size="25" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="VEHICLE_DAMAGE_3" size="25" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE" size="11" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE_TYPE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="53" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="53" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings>
+            <Position x="450" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">True</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"UNIQUE_ID","COLLISION_ID","CRASH_DATE","CRASH_TIME","VEHICLE_ID","STATE_REGISTRATION","VEHICLE_TYPE","VEHICLE_MAKE","VEHICLE_MODEL","VEHICLE_YEAR","TRAVEL_DIRECTION","VEHICLE_OCCUPANTS","DRIVER_SEX","DRIVER_LICENSE_STATUS","DRIVER_LICENSE_JURISDICTION","PRE_CRASH","POINT_OF_IMPACT","VEHICLE_DAMAGE","VEHICLE_DAMAGE_1","VEHICLE_DAMAGE_2","VEHICLE_DAMAGE_3","PUBLIC_PROPERTY_DAMAGE","PUBLIC_PROPERTY_DAMAGE_TYPE","CONTRIBUTING_FACTOR_1","CONTRIBUTING_FACTOR_2"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="570" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+                <FormulaField expression="DateTimeParse([CRASH_DATE],'%m/%d/%Y')" field="CRASH_DATE" size="10" type="String" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="64" type="String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+CRASH_DATE = DateTimeParse([CRASH_DATE],'%m/%d/%Y'...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="678" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">odbc:DSN=DAMG7370|||DAMG7370NYC_MOTOR.dbo.stg_nyc_mv_collision_vehicles</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Overwrite</OutputOption>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=DAMG7370
+Query=DAMG7370NYC_MOTOR.dbo.stg_ny...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="29" y="52" width="780" height="265" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>DAMG7370NYC_MOTOR.[dbo].stg_nyc_mv_collision_Crashes</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="54" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>True</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>True</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>True</QuoteRecordBreak>
+                <CodePage>65001</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Motor_Vehicle_Collisions_-_Crashes.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="CRASH DATE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CRASH TIME" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="BOROUGH" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="ZIP CODE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="LATITUDE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="LONGITUDE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="LOCATION" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="ON STREET NAME" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CROSS STREET NAME" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="OFF STREET NAME" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF PERSONS INJURED" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF PERSONS KILLED" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF PEDESTRIANS INJURED" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF PEDESTRIANS KILLED" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF CYCLIST INJURED" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF CYCLIST KILLED" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF MOTORIST INJURED" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF MOTORIST KILLED" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING FACTOR VEHICLE 1" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING FACTOR VEHICLE 2" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING FACTOR VEHICLE 3" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING FACTOR VEHICLE 4" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING FACTOR VEHICLE 5" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="COLLISION_ID" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE TYPE CODE 1" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE TYPE CODE 2" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE TYPE CODE 3" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE TYPE CODE 4" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE TYPE CODE 5" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings>
+            <Position x="342" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">True</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"CRASH_DATE","CRASH_TIME","BOROUGH","ZIP_CODE","LATITUDE","LONGITUDE","LOCATION","ON_STREET_NAME","CROSS_STREET_NAME","OFF_STREET_NAME","NUMBER_OF_PERSONS_INJURED","NUMBER_OF_PERSONS_KILLED","NUMBER_OF_PEDESTRIANS_INJURED","NUMBER_OF_PEDESTRIANS_KILLED","NUMBER_OF_CYCLIST_INJURED","NUMBER_OF_CYCLIST_KILLED","NUMBER_OF_MOTORIST_INJURED","NUMBER_OF_MOTORIST_KILLED","CONTRIBUTING_FACTOR_VEHICLE_1","CONTRIBUTING_FACTOR_VEHICLE_2","CONTRIBUTING_FACTOR_VEHICLE_3","CONTRIBUTING_FACTOR_VEHICLE_4","CONTRIBUTING_FACTOR_VEHICLE_5","COLLISION_ID","VEHICLE_TYPE_CODE_1","VEHICLE_TYPE_CODE_2","VEHICLE_TYPE_CODE_3","VEHICLE_TYPE_CODE_4","VEHICLE_TYPE_CODE_5"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+            <Position x="438" y="222" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Limit_UniqueCount>10000</Limit_UniqueCount>
+              <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+              <IsMetric value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="246" y="101" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="CRASH_DATE" selected="True" />
+                <Field field="CRASH_TIME" selected="True" />
+                <Field field="BOROUGH" selected="True" />
+                <Field field="ZIP_CODE" selected="True" />
+                <Field field="LATITUDE" selected="True" />
+                <Field field="LONGITUDE" selected="True" />
+                <Field field="LOCATION" selected="True" />
+                <Field field="ON_STREET_NAME" selected="True" />
+                <Field field="CROSS_STREET_NAME" selected="True" />
+                <Field field="OFF_STREET_NAME" selected="True" />
+                <Field field="NUMBER_OF_PERSONS_INJURED" selected="True" />
+                <Field field="NUMBER_OF_PERSONS_KILLED" selected="True" />
+                <Field field="NUMBER_OF_PEDESTRIANS_INJURED" selected="True" />
+                <Field field="NUMBER_OF_PEDESTRIANS_KILLED" selected="True" />
+                <Field field="NUMBER_OF_CYCLIST_INJURED" selected="True" />
+                <Field field="NUMBER_OF_CYCLIST_KILLED" selected="True" />
+                <Field field="NUMBER_OF_MOTORIST_INJURED" selected="True" />
+                <Field field="NUMBER_OF_MOTORIST_KILLED" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_VEHICLE_1" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_VEHICLE_2" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_VEHICLE_3" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_VEHICLE_4" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_VEHICLE_5" selected="True" />
+                <Field field="COLLISION_ID" selected="True" />
+                <Field field="VEHICLE_TYPE_CODE_1" selected="True" />
+                <Field field="VEHICLE_TYPE_CODE_2" selected="True" />
+                <Field field="VEHICLE_TYPE_CODE_3" selected="True" />
+                <Field field="VEHICLE_TYPE_CODE_4" selected="True" />
+                <Field field="VEHICLE_TYPE_CODE_5" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="CRASH_DATE" size="10" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="String" />
+                <Field name="CRASH_TIME" size="5" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="String" />
+                <Field name="BOROUGH" size="13" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_String" />
+                <Field name="ZIP_CODE" size="5" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="String" />
+                <Field name="LATITUDE" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="Double" />
+                <Field name="LONGITUDE" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="Double" />
+                <Field name="LOCATION" size="25" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="String" />
+                <Field name="ON_STREET_NAME" size="32" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_String" />
+                <Field name="CROSS_STREET_NAME" size="32" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="OFF_STREET_NAME" size="40" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_String" />
+                <Field name="NUMBER_OF_PERSONS_INJURED" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="Byte" />
+                <Field name="NUMBER_OF_PERSONS_KILLED" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="Byte" />
+                <Field name="NUMBER_OF_PEDESTRIANS_INJURED" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="Byte" />
+                <Field name="NUMBER_OF_PEDESTRIANS_KILLED" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="Byte" />
+                <Field name="NUMBER_OF_CYCLIST_INJURED" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="Byte" />
+                <Field name="NUMBER_OF_CYCLIST_KILLED" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="Byte" />
+                <Field name="NUMBER_OF_MOTORIST_INJURED" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="Byte" />
+                <Field name="NUMBER_OF_MOTORIST_KILLED" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="Byte" />
+                <Field name="CONTRIBUTING_FACTOR_VEHICLE_1" size="53" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_String" />
+                <Field name="CONTRIBUTING_FACTOR_VEHICLE_2" size="53" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_String" />
+                <Field name="CONTRIBUTING_FACTOR_VEHICLE_3" size="53" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_String" />
+                <Field name="CONTRIBUTING_FACTOR_VEHICLE_4" size="43" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_String" />
+                <Field name="CONTRIBUTING_FACTOR_VEHICLE_5" size="43" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_String" />
+                <Field name="COLLISION_ID" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="Int32" />
+                <Field name="VEHICLE_TYPE_CODE_1" size="38" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE_TYPE_CODE_2" size="38" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_String" />
+                <Field name="VEHICLE_TYPE_CODE_3" size="35" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_String" />
+                <Field name="VEHICLE_TYPE_CODE_4" size="35" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_String" />
+                <Field name="VEHICLE_TYPE_CODE_5" size="35" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+            <Position x="150" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <RenameMode>Formula</RenameMode>
+              <Fields orderChanged="False">
+                <Field name="CRASH DATE" />
+                <Field name="CRASH TIME" />
+                <Field name="BOROUGH" />
+                <Field name="ZIP CODE" />
+                <Field name="LATITUDE" />
+                <Field name="LONGITUDE" />
+                <Field name="LOCATION" />
+                <Field name="ON STREET NAME" />
+                <Field name="CROSS STREET NAME" />
+                <Field name="OFF STREET NAME" />
+                <Field name="NUMBER OF PERSONS INJURED" />
+                <Field name="NUMBER OF PERSONS KILLED" />
+                <Field name="NUMBER OF PEDESTRIANS INJURED" />
+                <Field name="NUMBER OF PEDESTRIANS KILLED" />
+                <Field name="NUMBER OF CYCLIST INJURED" />
+                <Field name="NUMBER OF CYCLIST KILLED" />
+                <Field name="NUMBER OF MOTORIST INJURED" />
+                <Field name="NUMBER OF MOTORIST KILLED" />
+                <Field name="CONTRIBUTING FACTOR VEHICLE 1" />
+                <Field name="CONTRIBUTING FACTOR VEHICLE 2" />
+                <Field name="CONTRIBUTING FACTOR VEHICLE 3" />
+                <Field name="CONTRIBUTING FACTOR VEHICLE 4" />
+                <Field name="CONTRIBUTING FACTOR VEHICLE 5" />
+                <Field name="COLLISION_ID" />
+                <Field name="VEHICLE TYPE CODE 1" />
+                <Field name="VEHICLE TYPE CODE 2" />
+                <Field name="VEHICLE TYPE CODE 3" />
+                <Field name="VEHICLE TYPE CODE 4" />
+                <Field name="VEHICLE TYPE CODE 5" />
+                <Field name="*Unknown" />
+              </Fields>
+              <Expression>regex_replace([_CurrentField_]," ","_")</Expression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="CRASH_DATE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CRASH_TIME" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="BOROUGH" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="ZIP_CODE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="LATITUDE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="LONGITUDE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="LOCATION" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="ON_STREET_NAME" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CROSS_STREET_NAME" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="OFF_STREET_NAME" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER_OF_PERSONS_INJURED" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER_OF_PERSONS_KILLED" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER_OF_PEDESTRIANS_INJURED" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER_OF_PEDESTRIANS_KILLED" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER_OF_CYCLIST_INJURED" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER_OF_CYCLIST_KILLED" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER_OF_MOTORIST_INJURED" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="NUMBER_OF_MOTORIST_KILLED" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_VEHICLE_1" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_VEHICLE_2" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_VEHICLE_3" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_VEHICLE_4" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_VEHICLE_5" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="COLLISION_ID" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE_TYPE_CODE_1" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE_TYPE_CODE_2" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE_TYPE_CODE_3" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE_TYPE_CODE_4" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE_TYPE_CODE_5" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Crashes.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings>
+            <Position x="486" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields">CRASH_DATE=True,CRASH_TIME=True,BOROUGH=True,ZIP_CODE=True,LATITUDE=True,LONGITUDE=True,LOCATION=True,ON_STREET_NAME=True,CROSS_STREET_NAME=True,OFF_STREET_NAME=True,NUMBER_OF_PERSONS_INJURED=True,NUMBER_OF_PERSONS_KILLED=True,NUMBER_OF_PEDESTRIANS_INJURED=True,NUMBER_OF_PEDESTRIANS_KILLED=True,NUMBER_OF_CYCLIST_INJURED=True,NUMBER_OF_CYCLIST_KILLED=True,NUMBER_OF_MOTORIST_INJURED=True,NUMBER_OF_MOTORIST_KILLED=True,CONTRIBUTING_FACTOR_VEHICLE_1=True,CONTRIBUTING_FACTOR_VEHICLE_2=True,CONTRIBUTING_FACTOR_VEHICLE_3=True,CONTRIBUTING_FACTOR_VEHICLE_4=True,CONTRIBUTING_FACTOR_VEHICLE_5=True,COLLISION_ID=True,VEHICLE_TYPE_CODE_1=True,VEHICLE_TYPE_CODE_2=True,VEHICLE_TYPE_CODE_3=True,VEHICLE_TYPE_CODE_4=True,VEHICLE_TYPE_CODE_5=True</Value>
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="558" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Anjali\AppData\Local\Temp\Engine_12356_25d462f95b8879429f4512f7d24b611a_\Engine_12356_51ef61264c55f54b8f0471d2ee0dbb1d~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="558" y="234" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Anjali\AppData\Local\Temp\Engine_12356_25d462f95b8879429f4512f7d24b611a_\Engine_12356_9ea0120e86ded44ca8b4304b7db7b4d0~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="510" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+                <FormulaField expression="DateTimeParse([CRASH_DATE],'%m/%d/%Y')" field="CRASH_DATE" size="10" type="String" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="64" type="String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+CRASH_DATE = DateTimeParse([CRASH_DATE],'%m/%d/%Y'...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="678" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">odbc:DSN=DAMG7370|||DAMG7370NYC_MOTOR.dbo.stg_nyc_mv_collision_Crashes</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Overwrite</OutputOption>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=DAMG7370
+Query=DAMG7370NYC_MOTOR.dbo.stg_ny...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="28" y="340" width="780" height="325" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>DAMG7370NYC_MOTOR.dbo.stg_nyc_mv_collision_persons</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="53" y="389" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>True</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>True</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>True</QuoteRecordBreak>
+                <CodePage>65001</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Motor_Vehicle_Collisions_-_Person.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="COLLISION_ID" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="CRASH_DATE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="CRASH_TIME" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_ID" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_TYPE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_INJURY" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="VEHICLE_ID" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_AGE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="EJECTION" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="EMOTIONAL_STATUS" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="BODILY_INJURY" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="POSITION_IN_VEHICLE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="SAFETY_EQUIPMENT" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PED_LOCATION" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PED_ACTION" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="COMPLAINT" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PED_ROLE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_SEX" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+            <Position x="186" y="389" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <RenameMode>Formula</RenameMode>
+              <Fields orderChanged="False">
+                <Field name="UNIQUE_ID" />
+                <Field name="COLLISION_ID" />
+                <Field name="CRASH_DATE" />
+                <Field name="CRASH_TIME" />
+                <Field name="PERSON_ID" />
+                <Field name="PERSON_TYPE" />
+                <Field name="PERSON_INJURY" />
+                <Field name="VEHICLE_ID" />
+                <Field name="PERSON_AGE" />
+                <Field name="EJECTION" />
+                <Field name="EMOTIONAL_STATUS" />
+                <Field name="BODILY_INJURY" />
+                <Field name="POSITION_IN_VEHICLE" />
+                <Field name="SAFETY_EQUIPMENT" />
+                <Field name="PED_LOCATION" />
+                <Field name="PED_ACTION" />
+                <Field name="COMPLAINT" />
+                <Field name="PED_ROLE" />
+                <Field name="CONTRIBUTING_FACTOR_1" />
+                <Field name="CONTRIBUTING_FACTOR_2" />
+                <Field name="PERSON_SEX" />
+                <Field name="*Unknown" />
+              </Fields>
+              <Expression>regex_replace([_CurrentField_]," ","_")</Expression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="COLLISION_ID" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="CRASH_DATE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="CRASH_TIME" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_ID" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_TYPE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_INJURY" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="VEHICLE_ID" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_AGE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="EJECTION" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="EMOTIONAL_STATUS" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="BODILY_INJURY" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="POSITION_IN_VEHICLE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="SAFETY_EQUIPMENT" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PED_LOCATION" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PED_ACTION" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="COMPLAINT" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PED_ROLE" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+                <Field name="PERSON_SEX" size="254" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="282" y="390" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="UNIQUE_ID" selected="True" />
+                <Field field="COLLISION_ID" selected="True" />
+                <Field field="CRASH_DATE" selected="True" />
+                <Field field="CRASH_TIME" selected="True" />
+                <Field field="PERSON_ID" selected="True" />
+                <Field field="PERSON_TYPE" selected="True" />
+                <Field field="PERSON_INJURY" selected="True" />
+                <Field field="VEHICLE_ID" selected="True" />
+                <Field field="PERSON_AGE" selected="True" />
+                <Field field="EJECTION" selected="True" />
+                <Field field="EMOTIONAL_STATUS" selected="True" />
+                <Field field="BODILY_INJURY" selected="True" />
+                <Field field="POSITION_IN_VEHICLE" selected="True" />
+                <Field field="SAFETY_EQUIPMENT" selected="True" />
+                <Field field="PED_LOCATION" selected="True" />
+                <Field field="PED_ACTION" selected="True" />
+                <Field field="COMPLAINT" selected="True" />
+                <Field field="PED_ROLE" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_1" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_2" selected="True" />
+                <Field field="PERSON_SEX" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="Int32" />
+                <Field name="COLLISION_ID" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="Int32" />
+                <Field name="CRASH_DATE" size="10" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="String" />
+                <Field name="CRASH_TIME" size="5" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="String" />
+                <Field name="PERSON_ID" size="36" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="PERSON_TYPE" size="15" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="PERSON_INJURY" size="11" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="String" />
+                <Field name="VEHICLE_ID" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="Int32" />
+                <Field name="PERSON_AGE" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="Int16" />
+                <Field name="EJECTION" size="17" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="EMOTIONAL_STATUS" size="14" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="BODILY_INJURY" size="20" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="POSITION_IN_VEHICLE" size="86" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="SAFETY_EQUIPMENT" size="40" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="PED_LOCATION" size="57" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="PED_ACTION" size="47" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="COMPLAINT" size="34" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="PED_ROLE" size="15" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="53" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="53" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="V_String" />
+                <Field name="PERSON_SEX" size="1" source="File: C:\Users\Anjali\OneDrive - Northeastern University\DADABI\AAAAAFinalProject_NewYork\Files\Motor_Vehicle_Collisions_-_Person.tsv" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings>
+            <Position x="366" y="402" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">True</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"UNIQUE_ID","COLLISION_ID","CRASH_DATE","CRASH_TIME","PERSON_ID","PERSON_TYPE","PERSON_INJURY","VEHICLE_ID","PERSON_AGE","EJECTION","EMOTIONAL_STATUS","BODILY_INJURY","POSITION_IN_VEHICLE","SAFETY_EQUIPMENT","PED_LOCATION","PED_ACTION","COMPLAINT","PED_ROLE","CONTRIBUTING_FACTOR_1","CONTRIBUTING_FACTOR_2","PERSON_SEX"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+            <Position x="546" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Limit_UniqueCount>10000</Limit_UniqueCount>
+              <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+              <IsMetric value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings>
+            <Position x="546" y="582" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields">UNIQUE_ID=True,COLLISION_ID=True,CRASH_DATE=True,CRASH_TIME=True,PERSON_ID=True,PERSON_TYPE=True,PERSON_INJURY=True,VEHICLE_ID=True,PERSON_AGE=True,EJECTION=True,EMOTIONAL_STATUS=True,BODILY_INJURY=True,POSITION_IN_VEHICLE=True,SAFETY_EQUIPMENT=True,PED_LOCATION=True,PED_ACTION=True,COMPLAINT=True,PED_ROLE=True,CONTRIBUTING_FACTOR_1=True,CONTRIBUTING_FACTOR_2=True,PERSON_SEX=True</Value>
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="630" y="570" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Anjali\AppData\Local\Temp\Engine_5004_c598c151bf606d4c82ba8ab9b74b7fb5_\Engine_5004_88ac02bbd769494ab38fce939b7d6da5~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="654" y="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Anjali\AppData\Local\Temp\Engine_5004_c598c151bf606d4c82ba8ab9b74b7fb5_\Engine_5004_408768c3ebc8704c89b32864fb468838~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="510" y="402" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+                <FormulaField expression="DateTimeParse([CRASH_DATE],'%m/%d/%Y')" field="CRASH_DATE" size="10" type="String" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="64" type="String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+CRASH_DATE = DateTimeParse([CRASH_DATE],'%m/%d/%Y'...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="678" y="402" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">odbc:DSN=DAMG7370|||DAMG7370NYC_MOTOR.dbo.stg_nyc_mv_collision_persons</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Overwrite</OutputOption>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=DAMG7370
+Query=DAMG7370NYC_MOTOR.dbo.stg_ny...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output26" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output26" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output26" />
+      <Destination ToolID="8" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output26" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="2" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output26" />
+      <Destination ToolID="16" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output26" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output26" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>NEWYork_Motor_DataProfiling</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="f447b979-a977-4128-be57-f97adaf8fb32" />
+      <Telemetry>
+        <PreviousWorkflowId value="a92deaa9-b5bd-4dfc-9a43-756eb6b753fa" />
+        <OriginWorkflowId value="a28a30dd-9f0a-482b-bb29-fa510cfa29ee" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
